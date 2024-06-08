@@ -19,7 +19,7 @@
     <jdk.version>1.8</jdk.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-    <chunky.version>2.3.0-30-g82f6ab17</chunky.version>
+    <chunky.version>2.4.6</chunky.version>
   </properties>
 
   <repositories>
@@ -33,7 +33,7 @@
     </repository>
     <repository>
       <id>dynmap-repo</id>
-      <url>http://repo.mikeprimm.com/</url>
+      <url>https://repo.mikeprimm.com/</url>
     </repository>
     <repository>
       <id>wertarbyte-repo</id>
@@ -41,7 +41,7 @@
     </repository>
     <repository>
       <id>local-libs</id>
-      <url>file://${basedir}/lib</url>
+      <url>file://C:/Dev/Minecraft/ChunkyMapFabric/lib</url>
     </repository>
   </repositories>
 
@@ -49,7 +49,7 @@
     <dependency>
       <groupId>org.bukkit</groupId>
       <artifactId>bukkit</artifactId>
-      <version>1.16.1-R0.1-SNAPSHOT</version>
+      <version>1.20.5-R0.1-20240423.155811-1</version>
       <scope>provided</scope>
     </dependency>
     <dependency>
@@ -66,7 +66,7 @@
     <dependency>
       <!-- this is an older version, but 3.0-SNAPSHOT can't be installed and this works, too -->
       <groupId>us.dynmap</groupId>
-      <artifactId>DynmapCore</artifactId>
+      <artifactId>DynmapCoreAPI</artifactId>
       <version>2.3</version>
       <scope>provided</scope>
     </dependency>
@@ -94,7 +94,7 @@
     <dependency>
       <groupId>de.lemaik</groupId>
       <artifactId>chunky-denoiser</artifactId>
-      <version>0.1.3-SNAPSHOT</version>
+      <version>0.1.3-NOT-REALLY</version>
     </dependency>
   </dependencies>
 
